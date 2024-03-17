@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    background-image: url(bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1350px, 120vw);
+    height: 80vh;
+    position: relative;
+}
+.box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.22;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    max-width: 65vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+.img {
+   background-image: url(mrmathhacker.jpg);
+   height: 70px;
+   width: 70px;
+   background-size: cover;
+   position: relative;
+   z-index: 15;
+   margin-top: 29px;
+   border: 2px solid black;
+   border-radius: 50%;
+   box-shadow:  6px 6px 24px 19px rgb(117, 199, 225);
+   animation-name: orbit;
+   animation-duration: 2s;
+   animation-timing-function: ease-out;
+   animation-iteration-count: 1;
+   animation-delay: 0.5s;
+}
+
+@keyframes orbit{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    padding:0 30px;
+    text-align: center;
+    gap: 25px;
+    font-family: "Fugaz One", sans-serif;
+}
+.hero> :nth-child(1){
+    font-weight: 300;
+    font-size: 38px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+}
+
+.line{
+    height: 8px;
+    background-color: #343b2f;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    gap: 7px;
+    height: auto;
+    font-size: 25px;
+}
+.secimg img{
+    width: 27vw;
+    position: relative;
+    z-index: 10;
+    margin-top: 40px;
+    border-radius: 7px;
+}
+.line2{
+    margin-top: 60px;
+    height: 8px;
+    background-color: white;
+}
+.faq{
+    height: 80vh;
+    width: 100%;
+    background-color: #222831;
+    row-gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    font-family: "Almendra", serif;
+
+}
+.faqh2{
+    color: white;
+}
+.faqbox{
+    background-color: white;
+    height: 10vh;
+    width: 85%;
+    padding-left: 20px;
+    box-shadow:  5px 5px 12px 8px #e2b0e1 ;
+    border-radius: 8px;
+}
+
+.blur1{
+    width: 90%;
+    height: 180px;
+    background-color: rgba(255,255,255, 0.4);
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+    color: #790252;
+    border: 1px solid white;
+}
+
+.blur2{
+    width: 90%;
+    height:  100px;
+    background-color: rgba(255,255,255, 0.4);
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+    color: #31363F;
+    border: 1px solid white;
+}
+.blur3{
+    width: 90%;
+    height: 100px;
+    background-color: rgba(255,255,255, 0.4);
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+    color: #944E63;
+    border: 1px solid white;
+}
+.blurmyimg{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 5px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(255,255,255, 0.4);
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+    color: #944E63;
+    border: 1px solid white;
+    font-family: "Lumanosimo", cursive;
+}
+@media(min-width: 350px){
+    .blurmyimg{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+.secimg img{
+    width: 90%;
+    position: relative;
+    z-index: 10;
+    margin-top: 40px;
+    border-radius: 7px;
+}
+}
+.last{
+    height: 150px;
+    width: 100%;
+    background-color: #9DBC98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 3rem;
+}
