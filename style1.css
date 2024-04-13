@@ -73,11 +73,15 @@ input{
 }
 h2{
     color: #000000;
-    font-family: "Madimi One", sans-serif;
-    font-size: small;
-    font-size: 24px;
+    /* font-family: "Madimi One", sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e9e9e9;
+    font-size: 20px;
 }
 h1{
     color: #352F44;
-    font-family: "Madimi One", sans-serif;
+    /* font-family: "Madimi One", sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+
 }
