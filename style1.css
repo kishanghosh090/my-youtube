@@ -52,12 +52,15 @@ button{
     background-color: #720455;
     border: none;
     border-radius: 15px;
-}
-a{
     color: white;
     font-family: "Madimi One", sans-serif;
     font-size: 20px;
 }
+/* a{ */
+    /* color: white;
+    font-family: "Madimi One", sans-serif;
+    font-size: 20px;
+} */
 input{
     height: 4.2vh;
     width: -13vh;
