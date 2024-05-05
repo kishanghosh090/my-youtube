@@ -1,0 +1,30 @@
+@media(min-width: 766px){
+    .hero .owner-img img{
+        height: 10rem;
+        width: 7rem;
+        border-radius: 2rem;
+        background-size: cover;
+        line-height: 5px;
+    }
+    .res-ham{
+        opacity: 0;
+    }
+}
+@media(max-width: 766px){
+    .navbar{
+        flex-direction: column;
+        height: 60vh;
+        transition: all 0.3s ease-out;
+    }
+    .nav-res{
+        height: 0px;
+    }
+    .nav{
+        opacity: 0;
+    }
+    .list ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
