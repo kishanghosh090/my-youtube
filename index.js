@@ -1,9 +1,8 @@
-let fasolid  = document.querySelector(".fa-solid")
+let ham = document.querySelector(".ham")
 let navres = document.querySelector(".nav-res")
 let nav = document.querySelector(".nav")
 
-
-fasolid.addEventListener("click", () => {
+ham.addEventListener("click", () => {
     navres.classList.toggle("nav-res")
     nav.classList.toggle("nav")
 })
